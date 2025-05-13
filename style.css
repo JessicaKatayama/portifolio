@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: floralwhite;
+
+}
+
+.navegacao{
+    position: fixed;
+    top: 0;
+    background: rgb(248, 212, 7, 0.5);
+    width: 100%;
+    z-index: 100;
+    padding: 1.5rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black ;
+    font-weight:500;
+    font-size: larger;
+    text-decoration:underline;
+    
+}
+
+.foto-perfil{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.main{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+.descricao-caixa{
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid rgba(68, 66, 66, 0.651);
+    background-color: rgba(255, 233, 110, 0.322);
+    font-weight: 400;
+    
+
+}
+
+.descricao-paragrafo{
+    text-align: center;
+}
