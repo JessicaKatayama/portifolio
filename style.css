@@ -1,80 +1,179 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
 body{
-    background-color: floralwhite;
-
+    font-family: "Heebo";
+    background-color: #e9e4e9;
 }
 
-.navegacao{
-    position: fixed;
-    top: 0;
-    background: rgb(248, 212, 7, 0.5);
-    width: 100%;
-    z-index: 100;
-    padding: 1.5rem;
-}
-
-.menu{
+nav{
     display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 2rem;
-
+    justify-content: end;
+    margin-top: 20px;
 }
 
-.nav-link{
+nav a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
     text-decoration: none;
-    color: black ;
-    font-weight:500;
-    font-size: larger;
-    text-decoration:underline;
+    color: #000;
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+.about{
+    margin: 175px auto 0;
+    width: 860px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about div img{
+    width: 300px;
+    height: 300px;
+    margin: 0px 100px;
+    border-radius: 50%;
+    border: solid 6px white;
+}
+
+.about div p{
+    width: 497px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
     
 }
 
-
-.foto-perfil{
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.9));
+.about div h1{
+    font-size: xx-large;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 40px;
 }
 
-.main{
-    min-height: 100vh;
+.about div button{
+    margin-top: 38px;
+    width: 170px;
+    height: 35px;
+    background-color: #bacfcf;
+    border-color: #000;
+    border-width: 1px;
+    font-weight:600;
+    color:#1b1b1b;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.about div p span{
+    background-color: rgba(255, 255, 0, 0.486);
+    
+}
+
+.projetos{
+    background-color: #C4DBD9;
+    height: 600px;
+
+    
+}
+h2{
+font-size: 28px;
+color:#4d4d4d;
+padding-top: 20px; 
+
+
+
+}
+
+.titulo-secoes{
+    width: 860px;
+    margin: 0px auto;
+}
+
+.area-projetos{
+    width: 860px;
+    margin: 0px auto;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 10%;
+}
+
+.unidade-projetos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 510px;
+    height: 50%;
+    background-color: white;
+    padding: solid white 50px;
+    border-radius: 10px;
+ 
+}
+
+.unidade-projetos h3{
+    font-size: 17px;
+    margin-bottom: 0;
+    font-weight: 600;
+    padding: 0 10px;
+    
     
 }
 
-h1{
-    margin-bottom: 30px;
+.unidade-projetos p{
+    font-size: 13px;
+    text-align: justify;
+    padding: 0 15px;
+    
 }
 
-.descricao-caixa{
-    padding: 2rem;
-    max-width: 600px;
-    margin: 0 auto;
-    border-radius: 20px;
-    border: 2px solid rgba(68, 66, 66, 0.651);
-    background-color: rgba(255, 233, 110, 0.322);
-    font-weight: 400;
+.unidade-projetos img{
+    width:491px;
+    height:218px;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.curriculo {
+    width: 860px;
+    margin: 0px auto;
+    
+}
+
+.habilidades div{
+    margin-top: 50px;
+    background-color:#C4DBD9;
+    height: 80px;
+    padding-left: 850px;
+    padding-top: 25px;
+    
+}
+
+.habilidades h2{
+    /* width: 860px; */
+    height: 5px;
+    margin-left: 500px;
+    padding: 0;
+    background-color: #e9e4e9;
+}
+
+.habilidades img{
+    height: 60px;
+    
+}
+
+.contato{
+    background-color:#bacfcf ;
+    height: 150px;
+}
+
+.contato h2{
+    margin-left: 500px;
+}
+
+.contato img{
+    height: 60px;
+    margin-left: 40px;
     
 
 }
 
-.descricao-paragrafo{
-    text-align: center;
+.contato div{
+    display: flex;
+    justify-content: center;
+    
 }
